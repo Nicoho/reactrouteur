@@ -8,7 +8,9 @@ class App extends Component {
         return (
           <BrowserRouter>
           <div>
-            <NavLink exact to="/"> bienvenue </NavLink>
+            <NavLink exact to="/" activeStyle={{    
+    color: "red"
+  }}> bienvenue </NavLink>
             <NavLink to="/notre histoire" activeStyle={{    
     color: "red"
   }}> notre histoire </NavLink>
